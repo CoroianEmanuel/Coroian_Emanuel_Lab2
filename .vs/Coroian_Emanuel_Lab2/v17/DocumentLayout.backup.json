@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\pages\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:pages\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\data\\coroian_emanuel_lab2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:data\\coroian_emanuel_lab2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|c:\\users\\coroian emanuel\\desktop\\coroian_emanuel_lab2\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27A7209-3481-4C1C-828B-568ADD482726}|Coroian_Emanuel_Lab2.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:13:47.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T11:13:47.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:13:46.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T11:13:46.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:13:45.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T11:13:45.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:13:44.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T11:13:44.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:13:44.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Pages\\Books\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T11:13:40.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:13:38.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Coroian_Emanuel_Lab2Context.cs",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Data\\Coroian_Emanuel_Lab2Context.cs",
+              "RelativeDocumentMoniker": "Data\\Coroian_Emanuel_Lab2Context.cs",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Data\\Coroian_Emanuel_Lab2Context.cs",
+              "RelativeToolTip": "Data\\Coroian_Emanuel_Lab2Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:13:36.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Coroian Emanuel\\Desktop\\Coroian_Emanuel_Lab2\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:09:22.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

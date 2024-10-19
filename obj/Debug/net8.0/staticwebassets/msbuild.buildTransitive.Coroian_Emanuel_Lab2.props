@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Coroian_Emanuel_Lab2.props" />
+</Project>

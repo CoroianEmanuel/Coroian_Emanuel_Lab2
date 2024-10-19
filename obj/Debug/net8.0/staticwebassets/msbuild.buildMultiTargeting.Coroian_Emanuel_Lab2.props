@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Coroian_Emanuel_Lab2.props" />
+</Project>
