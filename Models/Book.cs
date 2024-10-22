@@ -19,6 +19,6 @@ namespace Coroian_Emanuel_Lab2.Models
         public int? PublisherID { get; set; }
         public Publisher? Publisher { get; set; }
         public int? AuthorID { get; set; }
-        public Authors? Author { get; set; }
+        public Author? Author { get; set; }
     }
 }

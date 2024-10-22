@@ -21,8 +21,9 @@
             @Html.DisplayNameFor(model => model.Book.Author)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Book.Author)
+            @Model.Book.Author.FirstName @Model.Book.Author.LastName
         </dd>
+
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Book.Price)
         </dt>
@@ -35,12 +36,12 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Book.PublishingDate)
         </dd>
-        <div class="form-group">
-            <label asp-for="Book.PublisherID" class="control-label">Publisher Name</label>
-            <select asp-for="Book.PublisherID" class="form-control" asp-items="ViewBag.PublisherID">
-            </select>
-            <span asp-validation-for="Book.PublisherID" class="text-danger"></span>
-        </div>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Book.Publisher)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Book.Publisher.PublisherName)
+        </dd>
     </dl>
 </div>
 <div>

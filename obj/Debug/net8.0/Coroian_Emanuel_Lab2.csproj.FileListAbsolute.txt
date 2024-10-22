@@ -256,3 +256,4 @@ C:\Users\Coroian Emanuel\Desktop\Coroian_Emanuel_Lab2\obj\Debug\net8.0\refint\Co
 C:\Users\Coroian Emanuel\Desktop\Coroian_Emanuel_Lab2\obj\Debug\net8.0\Coroian_Emanuel_Lab2.pdb
 C:\Users\Coroian Emanuel\Desktop\Coroian_Emanuel_Lab2\obj\Debug\net8.0\Coroian_Emanuel_Lab2.genruntimeconfig.cache
 C:\Users\Coroian Emanuel\Desktop\Coroian_Emanuel_Lab2\obj\Debug\net8.0\ref\Coroian_Emanuel_Lab2.dll
+C:\Users\Coroian Emanuel\Desktop\Coroian_Emanuel_Lab2\obj\Debug\net8.0\Coroian_Emanuel_Lab2.sourcelink.json

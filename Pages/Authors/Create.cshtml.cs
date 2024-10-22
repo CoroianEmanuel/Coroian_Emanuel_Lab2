@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Coroian_Emanuel_Lab2.Data;
 using Coroian_Emanuel_Lab2.Models;
 
-namespace Coroian_Emanuel_Lab2.Pages.Books
+namespace Coroian_Emanuel_Lab2.Pages.Authors
 {
     public class CreateModel : PageModel
     {
@@ -21,18 +21,11 @@ namespace Coroian_Emanuel_Lab2.Pages.Books
 
         public IActionResult OnGet()
         {
-            ViewData["PublisherID"] = new SelectList(_context.Set<Publisher>(), "ID","PublisherName");
-            ViewData["AuthorID"] = new SelectList(
-                _context.Set<Author>()
-                .Select(a => new { a.ID, FullName = a.FirstName + " " + a.LastName }),
-                "ID",
-                "FullName"
-             );
             return Page();
         }
 
         [BindProperty]
-        public Book Book { get; set; } = default!;
+        public Author Authors { get; set; } = default!;
 
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
@@ -42,7 +35,7 @@ namespace Coroian_Emanuel_Lab2.Pages.Books
                 return Page();
             }
 
-            _context.Book.Add(Book);
+            _context.Authors.Add(Authors);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

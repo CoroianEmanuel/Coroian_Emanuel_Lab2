@@ -4,6 +4,7 @@ using Coroian_Emanuel_Lab2.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Coroian_Emanuel_Lab2.Migrations
 {
     [DbContext(typeof(Coroian_Emanuel_Lab2Context))]
-    partial class Coroian_Emanuel_Lab2ContextModelSnapshot : ModelSnapshot
+    [Migration("20241021111646_Autor-Updatat")]
+    partial class AutorUpdatat
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,7 +25,7 @@ namespace Coroian_Emanuel_Lab2.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Coroian_Emanuel_Lab2.Models.Author", b =>
+            modelBuilder.Entity("Coroian_Emanuel_Lab2.Models.Authors", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -95,22 +98,20 @@ namespace Coroian_Emanuel_Lab2.Migrations
 
             modelBuilder.Entity("Coroian_Emanuel_Lab2.Models.Book", b =>
                 {
-                    b.HasOne("Coroian_Emanuel_Lab2.Models.Author", "Author")
+                    b.HasOne("Coroian_Emanuel_Lab2.Models.Authors", "Author")
                         .WithMany("Books")
-                        .HasForeignKey("AuthorID")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("AuthorID");
 
                     b.HasOne("Coroian_Emanuel_Lab2.Models.Publisher", "Publisher")
                         .WithMany("Books")
-                        .HasForeignKey("PublisherID")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("PublisherID");
 
                     b.Navigation("Author");
 
                     b.Navigation("Publisher");
                 });
 
-            modelBuilder.Entity("Coroian_Emanuel_Lab2.Models.Author", b =>
+            modelBuilder.Entity("Coroian_Emanuel_Lab2.Models.Authors", b =>
                 {
                     b.Navigation("Books");
                 });

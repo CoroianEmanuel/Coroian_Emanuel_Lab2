@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Coroian_Emanuel_Lab2.Data;
 using Coroian_Emanuel_Lab2.Models;
 
-namespace Coroian_Emanuel_Lab2.Pages.Books
+namespace Coroian_Emanuel_Lab2.Pages.Authors
 {
     public class EditModel : PageModel
     {
@@ -21,7 +21,7 @@ namespace Coroian_Emanuel_Lab2.Pages.Books
         }
 
         [BindProperty]
-        public Book Book { get; set; } = default!;
+        public Author Authors { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -30,23 +30,12 @@ namespace Coroian_Emanuel_Lab2.Pages.Books
                 return NotFound();
             }
 
-            var book =  await _context.Book.FirstOrDefaultAsync(m => m.ID == id);
-            if (book == null)
+            var authors =  await _context.Authors.FirstOrDefaultAsync(m => m.ID == id);
+            if (authors == null)
             {
                 return NotFound();
             }
-            Book = book;
-
-            //PopulateAssignedCategoryData(_context, Book);
-
-            var authorList = _context.Authors.Select(x => new
-            {
-                x.ID,
-                FullName = x.FirstName + " " + x.LastName
-            });
-
-            ViewData["PublisherID"] = new SelectList(_context.Set<Publisher>(), "ID","PublisherName");
-            ViewData["AuthorID"] = new SelectList(authorList, "ID", "FullName");
+            Authors = authors;
             return Page();
         }
 
@@ -59,7 +48,7 @@ namespace Coroian_Emanuel_Lab2.Pages.Books
                 return Page();
             }
 
-            _context.Attach(Book).State = EntityState.Modified;
+            _context.Attach(Authors).State = EntityState.Modified;
 
             try
             {
@@ -67,7 +56,7 @@ namespace Coroian_Emanuel_Lab2.Pages.Books
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!BookExists(Book.ID))
+                if (!AuthorsExists(Authors.ID))
                 {
                     return NotFound();
                 }
@@ -80,9 +69,9 @@ namespace Coroian_Emanuel_Lab2.Pages.Books
             return RedirectToPage("./Index");
         }
 
-        private bool BookExists(int id)
+        private bool AuthorsExists(int id)
         {
-            return _context.Book.Any(e => e.ID == id);
+            return _context.Authors.Any(e => e.ID == id);
         }
     }
 }

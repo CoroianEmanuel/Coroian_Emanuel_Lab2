@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Coroian_Emanuel_Lab2.Data;
 using Coroian_Emanuel_Lab2.Models;
 
-namespace Coroian_Emanuel_Lab2.Pages.Books
+namespace Coroian_Emanuel_Lab2.Pages.Authors
 {
     public class DetailsModel : PageModel
     {
@@ -19,7 +19,7 @@ namespace Coroian_Emanuel_Lab2.Pages.Books
             _context = context;
         }
 
-        public Book Book { get; set; } = default!;
+        public Author Authors { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,17 +28,14 @@ namespace Coroian_Emanuel_Lab2.Pages.Books
                 return NotFound();
             }
 
-            var book = await _context.Book
-                .Include(b => b.Publisher)
-                .Include(b => b.Author)
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (book == null)
+            var authors = await _context.Authors.FirstOrDefaultAsync(m => m.ID == id);
+            if (authors == null)
             {
                 return NotFound();
             }
             else
             {
-                Book = book;
+                Authors = authors;
             }
             return Page();
         }
