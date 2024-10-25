@@ -33,6 +33,7 @@ namespace Coroian_Emanuel_Lab2.Data
                 .HasForeignKey(b => b.PublisherID)
                 .OnDelete(DeleteBehavior.Cascade);
         }
+        public DbSet<Coroian_Emanuel_Lab2.Models.Category> Category { get; set; } = default!;
                                                                 }                   
 }
                                                     
