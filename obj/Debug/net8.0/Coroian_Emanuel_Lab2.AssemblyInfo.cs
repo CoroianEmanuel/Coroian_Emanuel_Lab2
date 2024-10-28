@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Coroian_Emanuel_Lab2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dca1cd2f9543384b1d7ac8023b72de6d6cbe49e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+147bdd75e0fd36078e654ebb75335cd435aa6b4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Coroian_Emanuel_Lab2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Coroian_Emanuel_Lab2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
