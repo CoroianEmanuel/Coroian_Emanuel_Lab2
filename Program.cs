@@ -1,12 +1,20 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Coroian_Emanuel_Lab2.Data;
+using Microsoft.AspNetCore.Identity;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<Coroian_Emanuel_Lab2Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Coroian_Emanuel_Lab2Context") ?? throw new InvalidOperationException("Connection string 'Coroian_Emanuel_Lab2Context' not found.")));
+
+builder.Services.AddDbContext<LibraryIdentityContextContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("Coroian_Emanuel_Lab2Context") ?? throw new InvalidOperationException("Connection string 'Coroian_Emanuel_Lab2Context' not found.")));
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+options.SignIn.RequireConfirmedAccount = true)
+ .AddEntityFrameworkStores<LibraryIdentityContextContext>();
+
 
 var app = builder.Build();
 

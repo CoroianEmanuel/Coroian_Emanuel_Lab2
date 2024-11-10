@@ -34,6 +34,8 @@ namespace Coroian_Emanuel_Lab2.Data
                 .OnDelete(DeleteBehavior.Cascade);
         }
         public DbSet<Coroian_Emanuel_Lab2.Models.Category> Category { get; set; } = default!;
+        public DbSet<Coroian_Emanuel_Lab2.Models.Member> Member { get; set; } = default!;
+        public DbSet<Coroian_Emanuel_Lab2.Models.Borrowing> Borrowing { get; set; } = default!;
                                                                 }                   
 }
                                                     
