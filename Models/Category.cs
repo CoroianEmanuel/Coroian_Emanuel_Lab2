@@ -1,5 +1,6 @@
 ﻿namespace Coroian_Emanuel_Lab2.Models
 {
+    
     public class Category
     {
         public int ID { get; set; }

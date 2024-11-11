@@ -1,4 +1,6 @@
-﻿namespace Coroian_Emanuel_Lab2.Models
+﻿using Microsoft.AspNetCore.Authorization;
+
+namespace Coroian_Emanuel_Lab2.Models
 {
     public class Publisher
     {
